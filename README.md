@@ -25,4 +25,4 @@ El resultado se exporta a archivos Excel listos para ser utilizados por el equip
 ## 📄 Notas
 - El script está diseñado para integrarse con la estructura de datos del **Colegio Gimnasio Kaiporé**.
 - Hay dos scripts, con diferencias muy concretas en las materias y áreas que se manejan diferente en primaria y bachillerato.
-- Este proyecto ahorró el trabajo de **11 profesores** que hacían esta planeación manual cada semana, reduciendo el tiempo de ejecución de **1 hora y media a menos de 1 minuto**.
+- Este proyecto ahorró el trabajo de **11 profesores** que hacían esta planeación manual cada semana, reduciendo el tiempo de ejecución de **1 hora y media por cada uno a menos de 1 minuto**.
