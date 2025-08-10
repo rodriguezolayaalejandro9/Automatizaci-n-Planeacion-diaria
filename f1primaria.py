@@ -395,7 +395,7 @@ for a in Areas:
     # En este punto ya esta todo asignado, y unifica todos los vectores creados en el bloque anterior para que quede todo en uno solo
     df_horario = pd.concat([df_nombres, df_bloque, df_asignatura, df_desempeño1, df_desempeño2, df_desempeño3, df_desempeño4, df_desempeño5], ignore_index=True, axis=1)
 
-    #A este punto ya con todo asignado solo hay una cosa que modificar, supongamos que en la lista el estudiante Cristian Moreno Gonzales aparecio tres veces, entonces le asigno
+    #A este punto ya con todo asignado solo hay una cosa que modificar, supongamos que en la lista el estudiante Cristian Moreno Gonzales (nombre fictisio)aparecio tres veces, entonces le asigno
     # las tres veces lo mismo (por ejemplo las tres veces le asigno Aritmetica el segundo desempeño) lo que hace esta parte del codigo es crear la 'escalera'
     # es decir, la primer vez la deja como se le asigno pero la segunda le cambia la X al desempeño siguiente (siguiendo con el ejemplo de Cristian le queda
     # en una escalera sus tareas a realizar, quedandole primero el segundo desempeño, luego el tercero y luego el cuarto)
@@ -428,4 +428,5 @@ for a in Areas:
         df_horario[4] = df_horario[4].replace('Producción e interpretación de textos','Producción')
         df_horario[4] = df_horario[4].replace('Pensamiento religioso','Pensamiento')
         df_horario.to_excel('C:/Users/Admin/Desktop/GK/F1.2/Primaria/HSL.xlsx', index=False)
+
         print('F1.2 de Lenguaje hecho')
